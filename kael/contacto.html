@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto — Kaelvryst Civil Partnership</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Kaelvryst<span>.</span></a>
+      <nav class="nav"><a href="index.html#mision">Mision</a><a href="index.html#causas">Causas</a><a href="proximamente.html">Proximamente</a>
+        <a href="blog/index.html">Blog</a></nav>
+    </div>
+  </header>
+  <main>
+    <section class="section">
+      <div class="container">
+        <p class="eyebrow reveal">Escribenos</p>
+        <h2 class="reveal">Contacto</h2>
+        <p class="section-lead reveal">Para alianzas, donaciones, voluntariado o prensa. Respondemos en 48 horas.</p>
+        <form class="contact-form reveal" action="https://formspree.io/f/TU_ID_AQUI" method="POST">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electronico</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto" />
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><p class="logo">Kaelvryst<span>.</span></p></div>
+      <p class="footer-affiliate">Asociada a <strong>Arktalon Corporation</strong></p>
+      <p class="copyright">&copy; 2026 Kaelvryst Civil Partnership.</p>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
